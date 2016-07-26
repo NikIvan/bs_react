@@ -2,5 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-ReactDOM.render(<App message="Props hello"/>, document.getElementById('app'))
+let mountNode = document.getElementById('app');
 
+ReactDOM.render(<App message="Props"/>, mountNode);
